@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting App</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="floating-button.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Meeting 1</h5>
+                <button class="btn btn-primary" onclick="joinMeeting('meetingCode1')">Join Meeting</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Meeting 2</h5>
+                <button class="btn btn-primary" onclick="joinMeeting('meetingCode2')">Join Meeting</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Meeting 3</h5>
+                <button class="btn btn-primary" onclick="joinMeeting('meetingCode3')">Join Meeting</button>
+            </div>
+        </div>
+    </div>
+
+
+    <button class="floating-btn" id="myButton" onclick="toggleContainer()">Custom Meetings</button>
+    <div id="container" class="hidden">
+        <button id="createBtn" onclick="createMeeting()">Create Meeting</button>
+        <button id="joinBtn" onclick="showJoinInput()">Join Meeting</button>
+        <div id="joinMeetingDiv" class="hidden">
+            <input type="text" id="meetingId" placeholder="Enter Meeting ID">
+            <button id="confirmJoinBtn" onclick="joinMeeting()">Join</button>
+        </div>
+     </div>
+     <script src="floating-button.js"></script>
+     <script src="web.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
