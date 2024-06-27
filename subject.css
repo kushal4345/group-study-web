@@ -24,7 +24,7 @@
 }
 
 body{
-    font-family: "Poppins", sans-serif;
+    font-family: "poppins", sans-serif;
     color: var(--primary-text-color)
 }
 
@@ -433,7 +433,7 @@ text-align: start;
         top: 80px;
         left: -100%;
         background: #1b1b1b;
-        height: 100vh;
+        height: 50vh;
         width: 100%;
         display: block;
         text-align: center;
@@ -452,9 +452,7 @@ text-align: start;
     .About-card {
         width: 15rem;
     }
-.icon{
-    z-index: 0;
-}
+
 
 #btn{
     width: 80%;
@@ -511,8 +509,6 @@ min-width: 100%;
 }
 #copyright{
     padding-top: 30px;
-    color: white;
-    /* margin-top: 30px; */
   }
 
 }
@@ -580,7 +576,6 @@ p{
 }
 #copyright{
     padding-top: 30px;
-    color: white;
   }
 
 }
@@ -656,7 +651,6 @@ width: fit-content;
 
   #copyright{
     padding-top: 30px;
-    color: white;
   }
 }
 @media only screen and (max-width: 275px) {
@@ -684,7 +678,6 @@ width: fit-content;
     .contact-section .contact-item-inner p {
         font-size: 14px;
         line-height: 22px;
-
     }
 
     .social-media a {
@@ -694,6 +687,3 @@ width: fit-content;
         margin: 1.5rem 1rem 0 0;
     }
 }
-
-
-    
