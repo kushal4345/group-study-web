@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -38,7 +39,7 @@ app.listen(port, () => {
 async function generateAIResponse(userInput) {
     const { GoogleGenerativeAI } = require("@google/generative-ai");
     
-    const apiKey = 'AIzaSyCU0Q07S1LGD2STg3Dh7_tVLTh0j9fT-o8'; // Replace with your actual API key
+    const apiKey = process.env.API_KEY; // Replace with your actual API key
     const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
@@ -125,5 +126,3 @@ async function generateAIResponse(userInput) {
 
     return cleanedResponse.trim(); // Trim leading/trailing whitespace
 }
-
-// 'AIzaSyCU0Q07S1LGD2STg3Dh7_tVLTh0j9fT-o8'
