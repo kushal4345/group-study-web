@@ -2,12 +2,12 @@ const meetingCodes = {
     meetingCode1: 'tpr-msju-fra',
     meetingCode2: 'vdd-dvup-csh',
     meetingCode3: 'ako-wtqv-sso',
-    meetingCode4: 'ako-wtqv-sso',
-    meetingCode5: 'ako-wtqv-sso',
-    meetingCode6: 'ako-wtqv-sso',
-    meetingCode7: 'ako-wtqv-sso',
-    meetingCode8: 'ako-wtqv-sso',
-      meetingCode8: 'ako-wtqv-sso'
+    meetingCode4: 'hzr-tzwe-obh',
+    meetingCode5: 'ttp-fpbe-yne',
+    meetingCode6: 'urw-aetb-uux',
+    meetingCode7: 'vym-unqp-dgx',
+    meetingCode8: 'eam-tmhj-dfp',
+    meetingCode8: 'sxh-hhwn-sen'
 
 
 };

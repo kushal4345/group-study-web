@@ -3,70 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meeting App</title>
-    <link rel="stylesheet" href="web.css">
+    <title>Web conferencing</title>
     <link rel="stylesheet" href="floating-button.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="web.css">
 </head>
 <body>
 
-    <section class="meeting">
-        <div class="card-container">
-            <div class="card">
-                <div class="card-body text-center">
-                    <img src="images/icons8-meeting-50.png" alt="img not found">
-                    <h5 class="card-title">ROOM 1</h5>
-                    <button class="btn btn-primary" onclick="joinMeetingg('meetingCode1')">Join Meeting</button>
-                </div>
+    <section >
+     <div class="meeting">
+        <div class="card">
+            <div class="card-body text-center">
+                <img src="images/icons8-meeting-50.png" alt="img not found">
+                <h2 class="card-title">General Discussion</h2>
+                <button class="btn btn-primary" onclick="joinMeetingg('meetingCode1')">Join Meeting</button>
             </div>
-            <div class="card">
-                <div class="card-body text-center">
-                    <img src="images/icons8-meeting-50.png" alt="img not found">
-                    <h5 class="card-title">Meeting 2</h5>
-                    <button class="btn btn-primary" onclick="joinMeetingg('meetingCode2')">Join Meeting</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body text-center">
-                    <img src="images/icons8-meeting-50.png" alt="img not found">
-                    <h5 class="card-title">Meeting 3</h5>
-                    <button class="btn btn-primary" onclick="joinMeetingg('meetingCode3')">Join Meeting</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body text-center">
-                    <img src="images/icons8-meeting-50.png" alt="img not found">
-                    <h5 class="card-title">Meeting 4</h5>
-                    <button class="btn btn-primary" onclick="joinMeetingg('meetingCode4')">Join Meeting</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body text-center">
-                    <img src="images/icons8-meeting-50.png" alt="img not found">
-                    <h5 class="card-title">Meeting 5</h5>
-                    <button class="btn btn-primary" onclick="joinMeetingg('meetingCode5')">Join Meeting</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body text-center">
-                    <img src="images/icons8-meeting-50.png" alt="img not found">
-                    <h5 class="card-title">Meeting 6</h5>
-                    <button class="btn btn-primary" onclick="joinMeetingg('meetingCode6')">Join Meeting</button>
-                </div>
-            </div>
-            
         </div>
-    
-    
-        <button class="floating-btn" id="myButton" onclick="toggleContainer()">Custom Meetings</button>
-        <div id="container" class="hidden">
-            <button id="createBtn" onclick="createMeeting()">Create Meeting</button>
-            <button id="joinBtn" onclick="showJoinInput()">Join Meeting</button>
-            <div id="joinMeetingDiv" class="hidden">
-                <input type="text" id="meetingId" placeholder="Enter Meeting ID">
-                <button id="confirmJoinBtn" onclick="joinMeeting()">Join</button>
+        <div class="card">
+            <div class="card-body text-center">
+                <img src="images/icons8-meeting-50.png" alt="img not found">
+                <h2 class="card-title">Homework Help</h2>
+                <button class="btn btn-primary" onclick="joinMeetingg('meetingCode2')">Join Meeting</button>
             </div>
-         </div>
+        </div>
+        <div class="card">
+            <div class="card-body text-center">
+                <img src="images/icons8-meeting-50.png" alt="img not found">
+                <h2 class="card-title">Exam Prep Session</h2>
+                <button class="btn btn-primary" onclick="joinMeetingg('meetingCode3')">Join Meeting</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body text-center">
+                <img src="images/icons8-meeting-50.png" alt="img not found">
+                <h2 class="card-title">Subject Specific Q&A</h2>
+                <button class="btn btn-primary" onclick="joinMeetingg('meetingCode4')">Join Meeting</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body text-center">
+                <img src="images/icons8-meeting-50.png" alt="img not found">
+                <h2 class="card-title">Project Collaboration</h2>
+                <button class="btn btn-primary" onclick="joinMeetingg('meetingCode5')">Join Meeting</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body text-center">
+                <img src="images/icons8-meeting-50.png" alt="img not found" >
+                <span><h2 class="card-title">Study Techniques</h2></span>
+                <button class="btn btn-primary" id="card-title" onclick="joinMeetingg('meetingCode6')">Join Meeting</button>
+            </div>
+        </div>
+        
+    
+
+
+    <button class="floating-btn" id="myButton" onclick="toggleContainer()">Custom Meetings</button>
+    <div id="container" class="hidden">
+        <button id="createBtn" onclick="createMeeting()">Create Meeting</button>
+        <button id="joinBtn" onclick="showJoinInput()">Join Meeting</button>
+        <div id="joinMeetingDiv" class="hidden">
+            <input type="text" id="meetingId" placeholder="Enter Meeting ID">
+            <button id="confirmJoinBtn" onclick="joinMeeting()">Join</button>
+        </div>
+     </div>
+     </div>
+           
     </section>
     
      <script src="web.js"></script>
