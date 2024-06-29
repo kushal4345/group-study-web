@@ -68,10 +68,7 @@ button{
 }
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+   
  
     margin: 0;
 }
@@ -98,6 +95,24 @@ body {
  
 
 
+}
+
+
+.home{
+    font-size: 2.5rem;
+    display: block;
+    position: relative;
+    left: 25px;
+    z-index: 1;
+
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .card img{
@@ -159,6 +174,9 @@ body {
         top: 580px;
     
     }
+ 
+
+    
 
 
 
@@ -168,6 +186,24 @@ body {
     }
 } 
 
+
+
+@media (max-width:675px){
+    .home{
+        margin-bottom: 15%;
+    }
+
+}
+
+
+@media (max-width:370px){
+    .home{
+        margin-bottom: 15%;
+    }
+
+    
+
+}
 
 @media (max-width:338px){
     .meeting{
