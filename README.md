@@ -30,8 +30,9 @@ GroupsStudy.tech is more than just a website; it's a community of learners dedic
 
 Stay connected with us on social media for updates, tips, and more:
 
-Twitter: @GroupsStudy
-Facebook: GroupsStudy
+Twitter: @GroupsStudy <br>
+Facebook: GroupsStudy <br>
+
 Email: For any queries or support, reach out to us at support@groupsstudy.tech.
 Contribute and Grow
 
