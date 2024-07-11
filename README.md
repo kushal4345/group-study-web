@@ -38,5 +38,6 @@ Contribute and Grow
 
 We believe in the power of community and welcome contributions from passionate individuals. If you're interested in contributing to GroupsStudy.tech, check out our contribution guidelines in the repository.
 
-Thank you for choosing GroupsStudy.tech. Together, let's make learning more interactive, accessible, and fun!
+Thank you for choosing GroupsStudy.tech. Together, let's make learning more interactive, accessible, and fun! <br>
+website link-groupsstudy.tech
 
